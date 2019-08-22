@@ -1,5 +1,5 @@
 FROM python:3
 
-ADD main.py /
+ADD app.py /
 
-CMD ["python", "./main.py"]
+CMD ["python", "./app.py"]
